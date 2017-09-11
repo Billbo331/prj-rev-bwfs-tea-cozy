@@ -1,0 +1,149 @@
+body{
+	font-family: Helvetica;
+	font-size: 22px;
+	background-color: black;	
+	margin:0 auto;
+	opacity: 0.9;
+	color: seashell;
+	
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: black;
+}
+header img{
+	height: 50px;
+	margin-left: 10px;
+}
+header ul{
+	display: flex;
+	list-style: none;
+	
+	
+}
+a{
+	text-decoration: underline;
+	color: seashell;
+	margin: 10px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+	z-index: 5;
+	flex-wrap: wrap;
+	text-align: center;
+	
+}
+	#mission{
+	background-image: url(../images/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	align-items: center;	
+}
+#mission div{
+	background-color: black;
+	color: white;
+	display:flex;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;	
+}
+#mission h2{
+	margin: 5px 0 5px 0;
+}
+#mission h4{
+	margin: 10px 0 5px 0;
+}
+#featured{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	width: 100%;
+}
+#featured h2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin: 80px 0 0 0;
+}
+#featured > h4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 15px 0;
+	width: 100%;
+}
+#featured .pics {
+	display: flex;
+	width: 1000px;
+	flex-wrap:  wrap;
+	justify-content: space-around;
+}
+.pics img{
+	width: 300px;
+	height: 200px;
+}
+.pics h4{
+	margin: 10px;
+}
+.space{
+	width: 140px;
+	height: 40px;
+}
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#locations h2{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0;
+}
+.location{
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	justify-content: center;
+	background-color: black;
+	margin:0 20px 0 20px;
+}
+#locations > div{
+	max-width: 1000px;
+	display: flex;
+}
+.location h4{
+	width: 100%;
+	margin:0 0 40px;
+}
+h2{
+	width: 100%;
+}
+h5{
+	width: 100%;
+	margin: 0 0 20px;
+}
+#tst{
+	margin: 80px 0 -100px 0;
+	z-index: 15;
+}
+footer{
+	margin-left: 20px;
+}
